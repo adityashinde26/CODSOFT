@@ -1,0 +1,153 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #1e1e1e;
+}
+
+header h1 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+    color: #ff6f61;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #333;
+}
+
+h2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #ff6f61;
+}
+
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-pic {
+    
+    max-width: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#skills .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#skills .skills-list li {
+    font-size: 1.2rem;
+    background: #1e1e1e;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    transition: background 0.3s ease;
+}
+
+#skills .skills-list li:hover {
+    background: #ff6f61;
+}
+
+#projects .projects-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+#resume .btn {
+    display: inline-block;
+    background: #ff6f61;
+    color: #ffffff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+#resume .btn:hover {
+    background: #e0554d;
+}
+
+#contact .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#contact .social-links a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+#contact .social-links a:hover {
+    color: #e0554d;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1e1e1e;
+}
+
+footer p {
+    margin: 0;
+}
+#resume .container {
+    text-align: center;
+}
+#resume .btn {
+    display: inline-block;
+    background: #ff6f61;
+    color: #ffffff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
